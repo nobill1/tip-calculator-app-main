@@ -1,0 +1,113 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(186, 14%, 43%);
+}
+
+.splitter {
+    letter-spacing: 0.5em;
+}
+
+#bill {    
+    background-color: hsl(189, 41%, 97%) !important;
+    color: hsl(184, 14%, 56%);
+    background: url("./images/icon-dollar.svg") no-repeat scroll 24px 24px;
+    background-position: 4% center;
+    padding-left: 30px;
+}
+
+#bill:focus {
+    outline: 2px solid hsl(172, 67%, 45%);
+}
+
+#custom:focus {
+    outline: 2px solid hsl(172, 67%, 45%);
+}
+
+#people:focus {
+    outline: 2px solid hsl(172, 67%, 45%);
+}
+
+
+
+#people {    
+    background-color: hsl(189, 41%, 97%) !important;
+    color: hsl(184, 14%, 56%);
+    background: url("./images/icon-person.svg") no-repeat scroll 24px 24px;
+    background-position: 4% center;
+    padding-left: 30px;
+}
+
+.inner-card {
+    background-color: hsl(183, 100%, 15%);
+}
+
+.btn {
+    background-color: hsl(183, 100%, 15%);
+}
+
+.btn:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.radio {    
+    position: absolute;
+}
+
+.btn-primary {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+}
+
+.btn-secondary {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+/* .btn-secondary:hover {
+    background-color: white;
+    color: hsl(172, 67%, 45%);
+} */
+
+.price {
+    color: hsl(172, 67%, 45%);
+}
+
+@media (max-width: 639px) {    
+    .card {
+        width: 100%;
+        bottom: 0;        
+    }   
+
+    #people {
+        margin-bottom: 10px
+    }
+    
+    .mb-5 {
+        margin-bottom: 10px
+    }
+
+    .mb-8 {
+        margin-bottom: 20px
+    }
+
+    .grid {        
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 639px) {
+    .btn-primary {          
+        max-width: 120px;
+    }
+
+    .inner-card {
+        min-width: 300px;        
+    }
+
+    .card {
+        border-radius: 1.5rem;
+    }
+}
