@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![/127.0.0.1_5500_.png](./screenshot.jpg)
+![127.0.0.1_5500_.png](./screenshot.jpg)
 
 ### Links
 
@@ -38,7 +38,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Tailwindcss](https://tailwindcss.com/) - JS library
+- [Tailwindcss](https://tailwindcss.com/)
 
 ## Author
 
