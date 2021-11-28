@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![127.0.0.1_5500_.png](./screenshot.jpg)
+![image](./design/screenshot.png)
 
 ### Links
 
